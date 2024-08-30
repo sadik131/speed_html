@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="dist/styles.css" rel="stylesheet">
+
+</head>
+
+<body class="font-roboto">
+    <div class="flex h-screen">
+        <!-- Sidebar --> 
+        <div class="w-[320px] bg-[#2C5E9D]">
+            <div class="bg-[#2C5E9D] text-white flex justify-around h-20 items-center p-2">
+                <img src="./imaage/logo.png" alt="">
+                <img class="h-8 cursor-pointer" src="./imaage/Toggle.png" alt="">
+            </div>
+            <div class="bg-[#2C89FF] text-white flex justify-around h-20 items-center p-2">
+                <img class="h-6 w-6 ml-5" src="./imaage/window.png" alt="">
+                <h1 class="text-lg">Setting Up Your Site</h1>
+            </div>
+            <div class="my-4 gap-2 fixed bottom-0 w-full">
+                <hr class="bg-white w-[320px] my-2 h-[1px]">
+                <div class="flex items-center px-2 py-4">
+                    <div class="bg-white rounded-lg h-9 w-9 flex items-center justify-center ">
+                        <h1 class="text-[#2C89FF] font-bold text-2xl">V</h1>
+                    </div>
+                    <div class="flex flex-col  ">
+                        <h1 class="text-lg ml-2 text-white font-medium">Online</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+         <!-- <main class="flex-1 p-4 bg-white h-screen">
+            <div class="flex justify-between my-2">
+                <h1 class="text-lg font-medium">Name your new site</h1>
+                <button class="bg-blue-500 text-white rounded-md px-4 py-2 ">Continue</button>
+            </div>
+            <div class="relative">
+                <div
+                class="border border-gray-400 h-[90vh]  rounded-lg flex justify-center items-center">
+                <div class="absolute right-20">
+                    <h1 class="text-4xl font-normal">What is the name of your new site?</h1>
+                    <p class="text-base text-center">You can change this at any time. It's just a starting point.</p>
+                    <input type="text" placeholder="Spread Tech."
+                        class="py-2 px-4 border-gray-400 border-2  rounded-md mt-5 w-full">
+                </div>
+                <div class="absolute bg-[#2C5E9D] rounded-md text-white w-[198px] bottom-5 left-3 p-2">
+                    <div class="flex items-center my-4">
+                        <div class="bg-blue-500 h-10 w-10 flex items-center justify-center">
+                            <h1 class="text-white font-bold text-3xl">0</h1>
+                        </div>
+                        <div class="ml-2">
+                            <h1 class="text-lg">Online</h1>
+                            <h1 class="text-sm">Manage online here</h1>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between bg-gradient-to-r p-2 from-[#2C89FF] to-[#1660BE]">
+                        <img src="./imaage/Modules.png" alt="">
+                        <h1 class="text-base">Module</h1>
+                        <span class="text-xl">
+                            >
+                    </span>
+                    </div>
+                </div>
+                <div class="absolute bg-[#2C5E9D] rounded-md text-white w-48 bottom-5 left-[220px] p-2">
+                    <div class="flex items-center gap-2">
+                        <div class="bg-white h-9 w-9 flex items-center justify-center ">
+                            <h1 class="text-gray-400 font-bold text-2xl">C</h1>
+                        </div>
+                        <div class="flex flex-col">
+                            <h1 class="text-lg">Customers</h1>
+                            <h1 class="text-xs">Manage Customers here</h1>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center my-4 gap-2">
+                        <div class="bg-white h-9 w-9 flex items-center justify-center ">
+                            <h1 class="text-gray-400 font-bold text-2xl">V</h1>
+                        </div>
+                        <div class="flex flex-col">
+                            <h1 class="text-lg">Exprenses</h1>
+                            <h1 class="text-xs">Manage exprenses here</h1>
+                        </div>
+                    </div>
+                    <div class="flex items-center my-4 gap-2">
+                        <div class="bg-white h-9 w-9 flex items-center justify-center ">
+                            <h1 class="text-gray-400 font-bold text-2xl">E</h1>
+                        </div>
+                        <div class="flex flex-col">
+                            <h1 class="text-lg">Exprenses</h1>
+                            <h1 class="text-xs">Manage exprenses here</h1>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center my-4 gap-2">
+                        <div class="bg-white h-9 w-9 flex items-center justify-center ">
+                            <h1 class="text-gray-400 font-bold text-2xl">J</h1>
+                        </div>
+                        <div class="flex flex-col">
+                            <h1 class="text-lg">Exprenses</h1>
+                            <h1 class="text-xs">Manage exprenses here</h1>
+                        </div>
+                    </div>
+                    <div class="flex items-center my-4 gap-2">
+                        <div class="bg-white h-9 w-9 flex items-center justify-center ">
+                            <h1 class="text-gray-400 font-bold text-2xl">M</h1>
+                        </div>
+                        <div class="flex flex-col">
+                            <h1 class="text-lg">Exprenses</h1>
+                            <h1 class="text-xs">Manage exprenses here</h1>
+                        </div>
+                    </div>
+                    <div class="flex items-center my-4 gap-2">
+                        <div class="bg-white h-9 w-9 flex items-center justify-center ">
+                            <h1 class="text-gray-400 font-bold text-2xl">C</h1>
+                        </div>
+                        <div class="flex flex-col">
+                            <h1 class="text-lg">Exprenses</h1>
+                            <h1 class="text-xs">Manage exprenses here</h1>
+                        </div>
+                    </div>
+                    <div class="flex items-center my-4 gap-2">
+                        <div class="bg-white h-9 w-9 flex items-center justify-center ">
+                            <h1 class="text-gray-400 font-bold text-2xl">E</h1>
+                        </div>
+                        <div class="flex flex-col">
+                            <h1 class="text-lg">Exprenses</h1>
+                            <h1 class="text-xs">Manage exprenses here</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </main>  -->
+
+
+        <main class="flex-1 py-2 px-12 bg-white h-screen">
+            <div class="flex justify-between my-5">
+                <h1 class="text-2xl font-medium">ZSPPED</h1>
+                <button class="bg-blue-500 text-white rounded-md px-4 py-2 ">Continue</button>
+            </div>
+            <div>
+                <div
+                    class="border border-gray-400 px-3 rounded-lg h-[90%] overflow-hidden flex flex-col justify-center">
+                    <div class="flex justify-between  w-full  mt-4">
+                        <h1 class="text-2xl font-bold ">Product</h1>
+                        <div class="flex items-center gap-1">
+                            <div class="rounded-xl bg-gray-300 px-2 py-4 flex h-[38px] items-center"><span class="h-5 mr-1 w-5 items-center justify-center rounded-full flex text-white bg-blue-500">+</span>Add product from master</div>
+                            <div class="rounded-xl bg-white px-2 py-4 flex items-center"><span class="h-5 mr-1 w-5 text-white items-center justify-center rounded-full flex bg-gradient-to-r from-custom-blue-light-alt to-custom-blue-dark-alt">+</span>Add product</div>
+                        </div>
+                    </div>
+                    <div class="underline">Learn more</div>
+                    <div class="flex gap-x-2 items-center my-4">
+                        <span class="bg-gray-300 flex justify-between px-2 py-2 rounded-md">
+                            <span class="font-semibold">Type: </span><span>Physical</span><span class="ml-1">X</span>
+                        </span>
+                        <span class="flex items-center  text-gray-600">
+                            <span class="mr-2">+</span><span>Add filter</span>
+                        </span>
+                    </div>
+                    <div class="my-4 flex justify-between">
+                        <div class="flex items-center gap-x-4">
+                            <span class="text-xl font-normal">2 Product</span>
+                            <img class="cursor-pointer" src="./imaage/Import.png" alt="">
+                            <img class="cursor-pointer" src="./imaage/Export.png" alt="">
+                        </div>
+                        <div>
+                            <img class="h-6 w-6" src="./imaage/Vector.png" alt="">
+                        </div>
+                    </div>
+                    <table class="min-w-full border-collapse">
+                        <thead>
+                            <tr>
+                                <th class="p-2 border-b">
+                                    <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600">
+                                </th>
+                                <th class="text-[#5A769B] text-xl text-left p-2 border-b">Name</th>
+                                <th class="text-[#5A769B] text-xl text-left p-2 border-b">Type</th>
+                                <th class="text-[#5A769B] text-xl text-left p-2 border-b">Category</th>
+                                <th class="text-[#5A769B] text-xl text-left p-2 border-b">Price</th>
+                                <th class="text-[#5A769B] text-xl text-left p-2 border-b">Inventory</th>
+                                <th class="text-[#5A769B] text-xl text-left p-2 border-b">&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <!-- Table Body -->
+                        <tbody>
+                            <!-- Example Product Row -->
+                            <tr class="hover:bg-gray-100">
+                                <td class="p-2 border-b">
+                                    <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600">
+                                </td>
+                                <td class="p-2 border-b flex items-center">
+                                    <img src="https://via.placeholder.com/40" alt="Product Image" class="h-10 w-10 rounded mr-3">
+                                    Example Product
+                                </td>
+                                <td class="p-2 border-b">Electronics</td>
+                                <td class="p-2 border-b">Gadgets</td>
+                                <td class="p-2 border-b">$199.99</td>
+                                <td class="p-2 border-b">20</td>
+                                <td class="p-2 border-b text-center">
+                                    <button class="border border-blue-500 text-blue-500 font-bold px-4 py-2 rounded">...</button>
+                                </td>
+                            </tr>
+                            <!-- Add more product rows as needed -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+                </main>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
